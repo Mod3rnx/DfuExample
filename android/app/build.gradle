@@ -75,11 +75,6 @@ android {
 
     namespace "com.awesomeproject"
 
-    lint {
-        // https://github.com/bumptech/glide/issues/4940
-        lintConfig = file("$rootDir/lintConfig.xml")
-    }
-
     defaultConfig {
         applicationId "com.awesomeproject"
         minSdkVersion rootProject.ext.minSdkVersion
